@@ -10,14 +10,16 @@ const splitAtLine = (line: number, string: string) => {
   return [lines.slice(0, line).join("\n"), lines.slice(line).join("\n")];
 };
 
-const formatBody = bodyData =>
+type BodyData = [string, Array<[string, string]>];
+
+const formatBody = (bodyData: BodyData[]) =>
   bodyData
     .map(
       ([chunk, depGroups]) =>
         chunk +
         "\n" +
         depGroups
-          .map(depSet =>
+          .map((depSet: [string, string]) =>
             [
               "<details>",
               `<summary>${depSet[0]}</summary>`,
@@ -68,5 +70,5 @@ export const formatReport = (report: string) => {
 
   const bodyData = zip(chunks, chunkDependencies);
 
-  return header + formatBody(bodyData) + footer;
+  return header + formatBody(bodyData as BodyData[]) + footer;
 };

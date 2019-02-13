@@ -86,6 +86,18 @@
     tslint-eslint-rules "^5.4.0"
     tslint-xo "^0.9.0"
 
+"@types/lodash.zip@^4.2.4":
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/@types/lodash.zip/-/lodash.zip-4.2.4.tgz#75b9693d25571c067369ce906da5e84bc7a91842"
+  integrity sha512-pJngJYs/9b0EogpM1i3osT3uc2t7YZr989EV6tJposUlU45j0G1VOKoNTJ7y8CaEHyRFle9C31idLdXfulvsWA==
+  dependencies:
+    "@types/lodash" "*"
+
+"@types/lodash@*":
+  version "4.14.120"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.120.tgz#cf265d06f6c7a710db087ed07523ab8c1a24047b"
+  integrity sha512-jQ21kQ120mo+IrDs1nFNVm/AsdFxIx2+vZ347DbogHJPd/JzKNMOqU6HCYin1W6v8l5R9XSO2/e9cxmn7HAnVw==
+
 "@types/node@^10":
   version "10.12.25"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.25.tgz#0d01a7dd6127de60d861ece4a650963042abb538"
