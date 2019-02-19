@@ -11,13 +11,18 @@
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^2",
+    "@octokit/rest": "^16.15.0",
+    "circleci-api": "^3.3.1",
+    "dotenv": "^6.2.0",
     "lodash.zip": "^4.2.0",
     "tslib": "^1"
   },
   "devDependencies": {
     "@oclif/tslint": "^3",
+    "@types/dotenv": "^6.1.0",
     "@types/lodash.zip": "^4.2.4",
     "@types/node": "^10",
+    "axios": "^0.18.0",
     "ts-node": "^8",
     "tslint": "^5",
     "typescript": "^3.3"
