@@ -37,6 +37,7 @@ export const fetchMasterArtifact = async ({
       }
     }
   } catch (error) {
+    // tslint:disable-next-line:no-console
     console.error(
       "Found latest master job but failed to fetch master artifact"
     );

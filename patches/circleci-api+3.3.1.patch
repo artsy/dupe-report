@@ -1,0 +1,15 @@
+diff --git a/node_modules/circleci-api/dist/types/types/api.d.ts b/node_modules/circleci-api/dist/types/types/api.d.ts
+index bf34c62..dc51e9c 100644
+--- a/node_modules/circleci-api/dist/types/types/api.d.ts
++++ b/node_modules/circleci-api/dist/types/types/api.d.ts
+@@ -403,6 +403,10 @@ export interface BuildSummary {
+     pushed_at?: string;
+     is_workflow_job?: boolean;
+     added_at?: string;
++    workflows?: {
++      job_name: string;
++      workflow_name: string;
++    }
+ }
+ export interface FeatureFlags {
+     "trusty-beta"?: boolean;
