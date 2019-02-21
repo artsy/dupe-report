@@ -52,7 +52,7 @@
   "oclif": {
     "bin": "dupe-report"
   },
-  "repository": "artsy/dupe-report",
+  "repository": "https://github.com/artsy/dupe-report.git",
   "scripts": {
     "prepack": "rm -rf lib && tsc -b",
     "lint": "tslint -p . -t stylish",
