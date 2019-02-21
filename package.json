@@ -6,6 +6,9 @@
   "bin": {
     "dupe-report": "./bin/run"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "bugs": "https://github.com/artsy/dupe-report/issues",
   "dependencies": {
     "@oclif/command": "^1",
