@@ -12,7 +12,7 @@
   "bugs": "https://github.com/artsy/dupe-report/issues",
   "dependencies": {
     "@oclif/command": "1.5.10",
-    "@oclif/config": "1.12.6",
+    "@oclif/config": "1.12.8",
     "@oclif/plugin-help": "2.1.6",
     "@octokit/plugin-retry": "2.2.0",
     "@octokit/plugin-throttling": "2.4.0",
