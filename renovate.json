@@ -1,5 +1,20 @@
 {
-  "extends": [
-    "config:base"
+  "extends": ["config:base"],
+  "automerge": true,
+  "major": {
+    "automerge": false
+  },
+  "assignees": ["zephraph"],
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
+  "packageRules": [
+    {
+      "depTypeList": ["dependencies"],
+      "labels": ["Version: Minor"]
+    },
+    {
+      "depTypeList": ["devDependencies"],
+      "labels": ["Version: Trivial"]
+    }
   ]
 }
