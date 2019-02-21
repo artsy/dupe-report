@@ -200,10 +200,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/lodash.zip@4.2.4":
-  version "4.2.4"
-  resolved "https://registry.yarnpkg.com/@types/lodash.zip/-/lodash.zip-4.2.4.tgz#75b9693d25571c067369ce906da5e84bc7a91842"
-  integrity sha512-pJngJYs/9b0EogpM1i3osT3uc2t7YZr989EV6tJposUlU45j0G1VOKoNTJ7y8CaEHyRFle9C31idLdXfulvsWA==
+"@types/lodash.zip@4.2.5":
+  version "4.2.5"
+  resolved "https://registry.yarnpkg.com/@types/lodash.zip/-/lodash.zip-4.2.5.tgz#993163866c14c0a1a416a2e4d19586cf50a0f29c"
+  integrity sha512-bdMV7V7RYCgqAx5Qtf1pKYS/TopM3jokaTxwn0RWfC4bO5UtzOxs0xYYmVA9nD9FyQQFbrFQ9vgPPYs1v38zmQ==
   dependencies:
     "@types/lodash" "*"
 
