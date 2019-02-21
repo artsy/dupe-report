@@ -1,28 +1,35 @@
 import axios from "axios";
 
-import { circleApi } from "../api";
+import { circleApi } from "../api/circle";
+import { BuildSummary } from "circleci-api";
 
 interface FetchMasterArtifactParams {
   jobName: string;
   artifactName: string;
 }
 
+interface BuildSummaryExtended extends BuildSummary {
+  workflows?: {
+    job_name: string;
+  };
+}
+
 export const fetchMasterArtifact = async ({
   jobName,
   artifactName
-}: FetchMasterArtifactParams) => {
+}: FetchMasterArtifactParams): Promise<string | undefined> => {
   let latestBuild;
-  let masterArtifact = "ERROR?";
+  let masterArtifact;
 
   try {
     latestBuild = (await circleApi.buildsFor("master", {
       filter: "successful",
       limit: 10
     })).filter(
-      build => build.workflows && build.workflows.job_name === jobName
+      (build: BuildSummaryExtended) =>
+        build.workflows && build.workflows.job_name === jobName
     )[0];
   } catch (error) {
-    // tslint:disable-next-line:no-console
     console.error(`Failed to find latest master ${jobName} job`);
     throw error;
   }
@@ -37,7 +44,6 @@ export const fetchMasterArtifact = async ({
       }
     }
   } catch (error) {
-    // tslint:disable-next-line:no-console
     console.error(
       "Found latest master job but failed to fetch master artifact"
     );

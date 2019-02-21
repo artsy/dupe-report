@@ -3,6 +3,7 @@
   "rules": {
     "quotemark": [true, "double"],
     "object-curly-spacing": false,
-    "semicolon": true
+    "semicolon": true,
+    "no-console": false
   }
 }

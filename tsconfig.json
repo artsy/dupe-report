@@ -10,7 +10,11 @@
     "composite": true,
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "types": [
+      "./src/types/@octokit/plugin-retry",
+      "./src/types/@octokit/plugin-throttling"
+    ]
   },
   "include": ["src/**/*"]
 }

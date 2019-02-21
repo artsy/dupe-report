@@ -12,6 +12,31 @@ const splitAtLine = (line: number, string: string) => {
 
 type BodyData = [string, Array<[string, string]>];
 
+export const collapsible = (title: string, body: string) =>
+  ["<details>", `<summary>${title}</summary>\n`, body, "</details>"].join("\n");
+
+const NO_CHANGE_MSG = "Same amount of additions as removals.";
+const changedMessaging = (change: number) => {
+  const changeAmount = Math.abs(change);
+  const added = change > 0;
+
+  const linesAdded =
+    changeAmount === 0
+      ? NO_CHANGE_MSG
+      : `Roughly <b>${changeAmount}</b> line${changeAmount === 1 ? "" : "s"} ${
+          added ? "added" : "removed"
+        }. `;
+
+  const changeTypeText =
+    changeAmount === 0
+      ? "There is likely no change."
+      : `This is probably a${
+          added ? " <i>regression</i>" : "n <i>improvement</i>"
+        } over master.`;
+
+  return linesAdded + " " + changeTypeText;
+};
+
 const formatBody = (bodyData: BodyData[]) =>
   bodyData
     .map(
@@ -20,23 +45,28 @@ const formatBody = (bodyData: BodyData[]) =>
         "\n" +
         depGroups
           .map((depSet: [string, string]) =>
-            [
-              "<details>",
-              `<summary>${depSet[0]}</summary>`,
-              "<pre>",
-              depSet[1]
-                .replace(/[\n]+/gm, "\n")
-                .replace(/^\s{2}/gm, "")
-                .trim(),
-              "</pre>",
-              "</details>"
-            ].join("\n")
+            collapsible(
+              depSet[0],
+              [
+                "<pre>",
+                depSet[1]
+                  .replace(/[\n]+/gm, "\n")
+                  .replace(/^\s{2}/gm, "")
+                  .trim(),
+                "</pre>"
+              ].join("\n")
+            )
           )
           .join("")
     )
     .join("\n\n");
 
-export const formatReport = (report: string) => {
+export const formatReport = (
+  report: string,
+  diff: string,
+  change: number,
+  assignees: string[]
+) => {
   let [header, bodyWithFooter] = splitAtLine(6, report);
   const [body] = splitAtLine(-6, bodyWithFooter);
 
@@ -45,8 +75,7 @@ export const formatReport = (report: string) => {
   header = "## " + header;
 
   const footer =
-    "\n<br/>\n\n" +
-    "[Fixing bundle duplicates](https://github.com/FormidableLabs/inspectpack/#fixing-bundle-duplicates)\n" +
+    "[Fixing bundle duplicates](https://github.com/FormidableLabs/inspectpack/#fixing-bundle-duplicates) | " +
     "[An introductory guide](https://github.com/FormidableLabs/inspectpack/#diagnosing-duplicates)\n";
 
   const bodyLines = body.split("\n");
@@ -70,5 +99,21 @@ export const formatReport = (report: string) => {
 
   const bodyData = zip(chunks, chunkDependencies);
 
-  return header + formatBody(bodyData as BodyData[]) + footer;
+  return (
+    header +
+    "\n\n" +
+    changedMessaging(change) +
+    "\n\n" +
+    collapsible("Diff of duplicates in this branch vs master", diff) +
+    "\n\n" +
+    "<br/>" +
+    "\n\n" +
+    footer +
+    "\n\n" +
+    assignees.join(", ") +
+    "\n\n" +
+    "---" +
+    "\n\n" +
+    formatBody(bodyData as BodyData[])
+  );
 };
