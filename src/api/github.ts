@@ -35,8 +35,8 @@ type GitHubOptions = Partial<IssueOptions> & {
 };
 
 export class GitHub {
-  private _github: GitHubApi;
-  private _issueOpts: IssueOptions;
+  private readonly _github: GitHubApi;
+  private readonly _issueOpts: IssueOptions;
 
   constructor({ dryRun, ...issueOpts }: GitHubOptions) {
     this._github = new GitHubWithPlugins({

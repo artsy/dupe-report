@@ -52,7 +52,8 @@
   "scripts": {
     "posttest": "tslint -p . -t stylish",
     "prepack": "rm -rf lib && tsc -b",
-    "test": "echo NO TESTS"
+    "test": "echo NO TESTS",
+    "lint": "tslint -c tslint.json --project tsconfig.json"
   },
   "types": "lib/index.d.ts"
 }

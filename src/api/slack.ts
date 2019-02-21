@@ -9,8 +9,8 @@ interface SlackOptions {
 }
 
 export class Slack {
-  private slack: IncomingWebhook;
-  private dryRun: boolean;
+  private readonly slack: IncomingWebhook;
+  private readonly dryRun: boolean;
 
   constructor({ dryRun }: SlackOptions) {
     this.dryRun = dryRun;
