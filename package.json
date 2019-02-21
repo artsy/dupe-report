@@ -16,7 +16,7 @@
     "@oclif/plugin-help": "^2",
     "@octokit/plugin-retry": "^2.2.0",
     "@octokit/plugin-throttling": "^2.4.0",
-    "@octokit/rest": "^16.15.0",
+    "@octokit/rest": "^16.16.0",
     "@slack/client": "^4.9.0",
     "@types/diff": "^4.0.1",
     "circleci-api": "^3.3.1",
@@ -26,6 +26,7 @@
     "tslib": "^1"
   },
   "devDependencies": {
+    "@artsy/auto-config": "^0.1.0",
     "@oclif/tslint": "^3",
     "@types/dotenv": "^6.1.0",
     "@types/lodash.zip": "^4.2.4",
@@ -33,7 +34,7 @@
     "axios": "^0.18.0",
     "ts-node": "^8",
     "tslint": "^5",
-    "typescript": "^3.3"
+    "typescript": "^3.3.3"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -53,10 +54,9 @@
   },
   "repository": "artsy/dupe-report",
   "scripts": {
-    "posttest": "tslint -p . -t stylish",
     "prepack": "rm -rf lib && tsc -b",
-    "test": "echo NO TESTS",
-    "lint": "tslint -c tslint.json --project tsconfig.json"
+    "lint": "tslint -p . -t stylish",
+    "type-check": "tsc --pretty --noEmit"
   },
   "types": "lib/index.d.ts"
 }

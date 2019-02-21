@@ -1,51 +1,31 @@
----
-version: 2
-jobs:
-  node-latest: &test
-    docker:
-      - image: node:latest
-    working_directory: ~/cli
-    steps:
-      - checkout
-      - restore_cache: &restore_cache
-          keys:
-            - v1-npm-{{checksum ".circleci/config.yml"}}-{{checksum "yarn.lock"}}
-            - v1-npm-{{checksum ".circleci/config.yml"}}
-      - run:
-          name: Install dependencies
-          command: yarn
-      - run: ./bin/run --version
-      - run: ./bin/run --help
-      - run:
-          name: Testing
-          command: yarn test
-  node-8:
-    <<: *test
-    docker:
-      - image: node:8
-  cache:
-    <<: *test
-    steps:
-      - checkout
-      - run:
-          name: Install dependencies
-          command: yarn
-      - save_cache:
-          key: v1-npm-{{checksum ".circleci/config.yml"}}-{{checksum "yarn.lock"}}
-          paths:
-            - ~/cli/node_modules
-            - /usr/local/share/.cache/yarn
-            - /usr/local/share/.config/yarn
+version: 2.1
+
+orbs:
+  yarn: artsy/yarn@0.1.8
 
 workflows:
-  version: 2
-  "@artsy/dupe-report":
+  build_and_verify:
     jobs:
-      - node-latest
-      - node-8
-      - cache:
+      - yarn/workflow-queue
+      - yarn/update-cache:
+          requires:
+            - yarn/workflow-queue
+      - yarn/lint:
+          requires:
+            - yarn/workflow-queue
+      - yarn/type-check:
+          requires:
+            - yarn/workflow-queue
+      - yarn/auto-release:
+          # The deploy job is the _only_ job that should have access to our npm
+          # tokens. We include a context that has our publish credentials
+          # explicitly in this step. https://circleci.com/docs/2.0/contexts/
+          context: npm-deploy
           filters:
-            tags:
-              only: /^v.*/
             branches:
-              ignore: /.*/
+              only:
+                - master
+          requires:
+            - yarn/lint
+            - yarn/type-check
+            - yarn/update-cache
