@@ -1,7 +1,7 @@
 import axios from "axios";
+import { BuildSummary } from "circleci-api";
 
 import { circleApi } from "../api/circle";
-import { BuildSummary } from "circleci-api";
 
 interface FetchMasterArtifactParams {
   jobName: string;
