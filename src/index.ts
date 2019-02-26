@@ -81,17 +81,24 @@ export const dupeReport = async ({
   // Diff the reports
 
   let dupeDiff = "";
+  let headerDiff = false;
   let hasDiff = false;
   let change = 0;
 
   diffLines(masterReport.trim(), localReport.trim(), {
     newlineIsToken: true
-  }).forEach(line => {
+  }).forEach((line, lineNum) => {
     let lineStart = " ";
     if (line.added) {
+      if (lineNum <= 3) {
+        headerDiff = true;
+      }
       hasDiff = true;
       lineStart = "+";
     } else if (line.removed) {
+      if (lineNum <= 3) {
+        headerDiff = true;
+      }
       hasDiff = true;
       lineStart = "-";
     }
@@ -119,7 +126,7 @@ export const dupeReport = async ({
 
   // If there's no diff, remove the existing comment (if it exists) and quit
 
-  if (!hasDiff) {
+  if (!hasDiff || (change === 0 && !headerDiff)) {
     if (existingPRComment) {
       try {
         await github.deleteComment(existingPRComment.id);
