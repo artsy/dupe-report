@@ -168,6 +168,13 @@ export const dupeReport = async ({
     );
   }
 
+  if (existingPRComment) {
+    console.log(
+      `PR ${pullRequest} has likely already sent a slack notification, skipping...`
+    );
+    return;
+  }
+
   // Ping the designated slack channel that there are changes
 
   if (change > 0) {
