@@ -121,8 +121,20 @@ export const dupeReport = async ({
 
   if (!hasDiff) {
     if (existingPRComment) {
-      await github.deleteComment(existingPRComment.id);
+      try {
+        await github.deleteComment(existingPRComment.id);
+      } catch (error) {
+        console.error(
+          `Failed to delete comment ${
+            existingPRComment.id
+          } in PR ${pullRequest}`,
+          error
+        );
+      }
     }
+    console.log(
+      `No change in build #${buildNum} in PR ${pullRequest}, exiting...`
+    );
     return;
   }
 
