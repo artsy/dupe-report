@@ -85,9 +85,25 @@ export const dupeReport = async ({
   let hasDiff = false;
   let change = 0;
 
+  const masterHeader = masterReport
+    .trim()
+    .split("\n")
+    .slice(0, 4)
+    .join("\n");
+
+  const localHeader = localReport
+    .trim()
+    .split("\n")
+    .slice(0, 4)
+    .join("\n");
+
+  if (masterHeader !== localHeader) {
+    headerDiff = true;
+  }
+
   diffLines(masterReport.trim(), localReport.trim(), {
     newlineIsToken: true
-  }).forEach(line => {
+  }).forEach((line, lineNumber) => {
     let lineStart = " ";
     if (line.added) {
       hasDiff = true;
@@ -97,11 +113,7 @@ export const dupeReport = async ({
       lineStart = "-";
     }
 
-    line.value.split("\n").forEach((l, lineNumber) => {
-      if (lineNumber <= 4 && (lineStart === "+" || lineStart === "-")) {
-        headerDiff = true;
-      }
-
+    line.value.split("\n").forEach((l, lineOffset) => {
       lineStart === "+" && change++;
       lineStart === "-" && change--;
       dupeDiff += lineStart + l + "\n";
