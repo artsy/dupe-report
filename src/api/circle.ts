@@ -76,7 +76,9 @@ export class Circle {
     }
 
     if (build.pull_requests.length > 0 && build.branch !== "master") {
-      return build.pull_requests[0].url;
+      const pr = build.pull_requests[0].url;
+      console.log("Related pull request:", pr);
+      return pr;
     }
 
     return null;
