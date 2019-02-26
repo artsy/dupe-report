@@ -90,13 +90,13 @@ export const dupeReport = async ({
   }).forEach((line, lineNum) => {
     let lineStart = " ";
     if (line.added) {
-      if (lineNum <= 3) {
+      if (lineNum <= 4) {
         headerDiff = true;
       }
       hasDiff = true;
       lineStart = "+";
     } else if (line.removed) {
-      if (lineNum <= 3) {
+      if (lineNum <= 4) {
         headerDiff = true;
       }
       hasDiff = true;
