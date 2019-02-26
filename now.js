@@ -24,6 +24,8 @@ module.exports = (req, res) => {
     return res.end("buildNum invalid");
   }
 
+  console.log("invoked with", { owner, repo, buildNum, dryRun });
+
   dupeReport({
     owner: parsedOwner,
     repo: parsedRepo,
