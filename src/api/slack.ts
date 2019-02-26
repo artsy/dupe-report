@@ -17,16 +17,21 @@ export class Slack {
     this.slack = new IncomingWebhook(SLACK_WEBHOOK_URL);
   }
 
-  public send(message: string) {
-    !this.dryRun
-      ? this.slack.send(message)
-      : console.log(
-          "\n" +
-            message
-              .split("\n")
-              .map(line => `[slack] ${line}`)
-              .join("\n"),
-          "\n"
-        );
+  public async send(message: string) {
+    if (!this.dryRun) {
+      console.log("Attempting to send slack message:");
+      console.log(message);
+      return this.slack.send(message);
+    } else {
+      console.log(
+        "\n" +
+          message
+            .split("\n")
+            .map(line => `[slack] ${line}`)
+            .join("\n"),
+        "\n"
+      );
+      return Promise.resolve();
+    }
   }
 }

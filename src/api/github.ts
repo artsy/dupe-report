@@ -7,38 +7,26 @@ import { safelyFetchEnvs } from "../lib/envs";
 // @ts-ignore
 const GitHubWithPlugins = GitHubApi.plugin(throttling).plugin(retry);
 
-const {
-  CIRCLE_PROJECT_USERNAME,
-  CIRCLE_PROJECT_REPONAME,
-  CIRCLE_PULL_REQUEST,
-  GH_TOKEN
-} = safelyFetchEnvs([
-  "CIRCLE_PROJECT_USERNAME",
-  "CIRCLE_PROJECT_REPONAME",
-  "CIRCLE_PULL_REQUEST",
-  "GH_TOKEN"
-]);
+const { GH_TOKEN } = safelyFetchEnvs(["GH_TOKEN"]);
 
 interface IssueOptions {
   owner: string;
   repo: string;
   number: number;
 }
-const ISSUE = {
-  owner: CIRCLE_PROJECT_USERNAME,
-  repo: CIRCLE_PROJECT_REPONAME,
-  number: CIRCLE_PULL_REQUEST.split("/").slice(-1)[0]
-};
 
 type GitHubOptions = Partial<IssueOptions> & {
   dryRun: boolean;
+  owner: string;
+  repo: string;
+  pullRequest: string;
 };
 
 export class GitHub {
   private readonly _github: GitHubApi;
   private readonly _issueOpts: IssueOptions;
 
-  constructor({ dryRun, ...issueOpts }: GitHubOptions) {
+  constructor({ dryRun, owner, repo, pullRequest }: GitHubOptions) {
     this._github = new GitHubWithPlugins({
       auth: `token ${GH_TOKEN}`,
 
@@ -65,7 +53,11 @@ export class GitHub {
       }
     });
 
-    this._issueOpts = { ...ISSUE, ...issueOpts };
+    this._issueOpts = {
+      owner,
+      repo,
+      number: parseInt(pullRequest.split("/").slice(-1)[0])
+    };
 
     if (dryRun) {
       this._github.hook.wrap("request", (req, opts) => {
@@ -104,6 +96,13 @@ export class GitHub {
     return this._github.issues.createComment({
       ...this._issueOpts,
       body
+    });
+  }
+
+  public deleteComment(comment_id: number) {
+    return this._github.issues.deleteComment({
+      ...this._issueOpts,
+      comment_id
     });
   }
 
