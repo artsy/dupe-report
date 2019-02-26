@@ -1,5 +1,4 @@
 {
-  "extends": "@oclif/tslint",
   "rules": {
     "quotemark": [true, "double"],
     "object-curly-spacing": false,

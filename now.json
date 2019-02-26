@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [{ "src": "now.js", "use": "@now/node" }],
+  "env": {
+    "GH_TOKEN": "@gh-token",
+    "CIRCLE_TOKEN": "@circle-token",
+    "SLACK_WEBHOOK_URL": "@slack-hook"
+  }
+}
