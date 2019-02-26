@@ -75,7 +75,7 @@ export class Circle {
       throw error;
     }
 
-    if (build.pull_requests.length > 0) {
+    if (build.pull_requests.length > 0 && build.branch !== "master") {
       return build.pull_requests[0].url;
     }
 
