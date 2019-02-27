@@ -1,3 +1,15 @@
+# v0.16.0 (Wed Feb 27 2019)
+
+#### 🚀  Enhancement
+
+- Update dependency @slack/client to v4.10.0 [#19](https://github.com/artsy/dupe-report/pull/19) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.15.0 (Tue Feb 26 2019)
 
 #### 🚀  Enhancement
