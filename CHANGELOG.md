@@ -1,3 +1,16 @@
+# v0.19.1 (Sat Mar 02 2019)
+
+#### 🏠  Internal
+
+- Update dependency @types/node to v10.12.29 [#26](https://github.com/artsy/dupe-report/pull/26) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency tslint to v5.13.1 [#25](https://github.com/artsy/dupe-report/pull/25) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.19.0 (Thu Feb 28 2019)
 
 #### 🚀  Enhancement
