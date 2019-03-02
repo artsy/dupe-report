@@ -1,8 +1,12 @@
 import retry from "@octokit/plugin-retry";
 import throttling from "@octokit/plugin-throttling";
 import GitHubApi from "@octokit/rest";
+import { URL } from "url";
 
 import { safelyFetchEnvs } from "../lib/envs";
+
+const repo = ({ owner, repo }: Partial<IssueOptions>) =>
+  `https://github.com/${owner}/${repo}`;
 
 // @ts-ignore
 const GitHubWithPlugins = GitHubApi.plugin(throttling).plugin(retry);
@@ -75,6 +79,45 @@ export class GitHub {
         };
       });
     }
+  }
+
+  public async getBaseCommitBuild(buildName: string) {
+    const { data: pr } = await this._github.pulls.get({ ...this._issueOpts });
+
+    if (pr.base.ref !== "master") {
+      console.warn(
+        `${pr.html_url} might not have been branched off of master...`
+      );
+    }
+
+    console.log(
+      `Attempting to get build for ${repo(this._issueOpts)}/commit/${
+        pr.base.sha
+      }`
+    );
+
+    const { data: statuses } = await this._github.repos.listStatusesForRef({
+      owner: this._issueOpts.owner,
+      repo: this._issueOpts.repo,
+      ref: pr.base.sha
+    });
+
+    const build = statuses.find(
+      status =>
+        status.context === `ci/circleci: ${buildName}` &&
+        status.state === "success"
+    );
+
+    if (!build) {
+      console.error("No successful build found for base");
+      throw new Error();
+    }
+
+    console.log(`Build found: ${build.target_url}`);
+
+    return parseInt(new URL(build.target_url).pathname
+      .split("/")
+      .pop() as string);
   }
 
   public async checkForPRCommentWithString(match: string) {
