@@ -87,13 +87,13 @@ export const dupeReport = async ({
 
   const masterHeader = masterReport
     .trim()
-    .split("\n")
+    .split("\n", 5)
     .slice(0, 4)
     .join("\n");
 
   const localHeader = localReport
     .trim()
-    .split("\n")
+    .split("\n", 5)
     .slice(0, 4)
     .join("\n");
 
