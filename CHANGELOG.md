@@ -1,3 +1,15 @@
+# v0.19.2 (Sat Mar 02 2019)
+
+#### 🐛  Bug Fix
+
+- Compare with branch base instead of master [#28](https://github.com/artsy/dupe-report/pull/28) ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 1
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+
+---
+
 # v0.19.1 (Sat Mar 02 2019)
 
 #### 🏠  Internal
