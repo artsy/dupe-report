@@ -1,3 +1,15 @@
+# v0.20.0 (Mon Mar 04 2019)
+
+#### 🚀  Enhancement
+
+- Update dependency @octokit/rest to v16.16.4 [#31](https://github.com/artsy/dupe-report/pull/31) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.19.2 (Sat Mar 02 2019)
 
 #### 🐛  Bug Fix
