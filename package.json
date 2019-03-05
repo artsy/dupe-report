@@ -34,7 +34,7 @@
   "devDependencies": {
     "@artsy/auto-config": "0.1.0",
     "@types/dotenv": "6.1.0",
-    "@types/lodash.zip": "4.2.5",
+    "@types/lodash.zip": "4.2.6",
     "@types/node": "10.12.29",
     "@types/diff": "4.0.1",
     "ts-node": "8.0.2",
