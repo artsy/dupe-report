@@ -1,3 +1,19 @@
+# v0.21.0 (Wed Mar 06 2019)
+
+#### 🚀  Enhancement
+
+- Update dependency @octokit/rest to v16.16.5 [#33](https://github.com/artsy/dupe-report/pull/33) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### 🏠  Internal
+
+- Update dependency @types/lodash.zip to v4.2.6 [#32](https://github.com/artsy/dupe-report/pull/32) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.20.0 (Mon Mar 04 2019)
 
 #### 🚀  Enhancement
