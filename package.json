@@ -24,7 +24,7 @@
     "axios": "0.18.0",
     "@octokit/plugin-retry": "2.2.0",
     "@octokit/plugin-throttling": "2.4.0",
-    "@octokit/rest": "16.16.5",
+    "@octokit/rest": "16.17.0",
     "@slack/client": "4.10.0",
     "circleci-api": "3.3.1",
     "diff": "4.0.1",
