@@ -1,7 +1,7 @@
 {
   "name": "@artsy/dupe-report",
   "description": "A tool for reporting on duplicate dependencies in a webpack bundle",
-  "version": "0.23.0",
+  "version": "0.24.0",
   "author": "Justin Bennett <zephraph@gmail.com>",
   "files": [
     "/lib"
