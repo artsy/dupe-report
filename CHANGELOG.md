@@ -1,3 +1,19 @@
+# v0.25.0 (Wed Mar 13 2019)
+
+#### 🚀  Enhancement
+
+- Update dependency dotenv to v7 [#42](https://github.com/artsy/dupe-report/pull/42) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### 🏠  Internal
+
+- Update dependency tslint to v5.14.0 [#41](https://github.com/artsy/dupe-report/pull/41) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.24.0 (Wed Mar 13 2019)
 
 #### 🚀  Enhancement
