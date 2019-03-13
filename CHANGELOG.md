@@ -1,3 +1,20 @@
+# v0.24.0 (Wed Mar 13 2019)
+
+#### 🚀  Enhancement
+
+- Update dependency @octokit/rest to v16.17.1 [#40](https://github.com/artsy/dupe-report/pull/40) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### 🏠  Internal
+
+- Update dependency @types/node to v10.14.1 [#39](https://github.com/artsy/dupe-report/pull/39) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency @types/node to v10.14.0 [#38](https://github.com/artsy/dupe-report/pull/38) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.23.0 (Fri Mar 08 2019)
 
 #### 🚀  Enhancement
