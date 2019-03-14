@@ -1,3 +1,15 @@
+# v0.28.0 (Thu Mar 14 2019)
+
+#### 🚀  Enhancement
+
+- Update dependency circleci-api to v3.3.2 [#46](https://github.com/artsy/dupe-report/pull/46) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.27.1 (Thu Mar 14 2019)
 
 #### 🐛  Bug Fix
