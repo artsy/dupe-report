@@ -1,3 +1,15 @@
+# v0.27.1 (Thu Mar 14 2019)
+
+#### 🐛  Bug Fix
+
+- Update yarn orb to v0.2.0 [#45](https://github.com/artsy/dupe-report/pull/45) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.27.0 (Thu Mar 14 2019)
 
 #### 🚀  Enhancement
