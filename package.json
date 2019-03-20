@@ -14,7 +14,12 @@
   "engines": {
     "node": ">=8.0.0"
   },
+  "scripts": {
+    "lint": "lerna run lint",
+    "type-check": "lerna run type-check"
+  },
   "devDependencies": {
+    "for-in": "^1.0.2",
     "lerna": "^3.13.1"
   }
 }
