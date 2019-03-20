@@ -1,3 +1,55 @@
+# v0.31.0 (Wed Mar 20 2019)
+
+#### 🚀  Enhancement
+
+- Update dependency @octokit/rest to v16.20.0 [#51](https://github.com/artsy/dupe-report/pull/51) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### 🏠  Internal
+
+- Update dependency typescript to v3.3.4000 [#50](https://github.com/artsy/dupe-report/pull/50) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
+# v0.30.0 (Tue Mar 19 2019)
+
+#### 🚀  Enhancement
+
+- Update dependency @slack/client to v4.12.0 [#49](https://github.com/artsy/dupe-report/pull/49) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
+# v0.29.0 (Fri Mar 15 2019)
+
+#### 🚀  Enhancement
+
+- Update dependency @octokit/rest to v16.19.0 [#48](https://github.com/artsy/dupe-report/pull/48) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
+# v0.28.0 (Thu Mar 14 2019)
+
+#### 🚀  Enhancement
+
+- Update dependency circleci-api to v3.3.2 [#46](https://github.com/artsy/dupe-report/pull/46) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.27.1 (Thu Mar 14 2019)
 
 #### 🐛  Bug Fix
