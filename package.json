@@ -1,7 +1,7 @@
 {
   "name": "@artsy/dupe-report",
   "description": "A tool for reporting on duplicate dependencies in a webpack bundle",
-  "version": "0.27.1",
+  "version": "0.31.0",
   "author": "Justin Bennett <zephraph@gmail.com>",
   "private": true,
   "workspaces": [
@@ -13,5 +13,8 @@
   "bugs": "https://github.com/artsy/dupe-report/issues",
   "engines": {
     "node": ">=8.0.0"
+  },
+  "devDependencies": {
+    "lerna": "^3.13.1"
   }
 }
