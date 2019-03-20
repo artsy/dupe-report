@@ -39,7 +39,7 @@
     "@types/diff": "4.0.1",
     "ts-node": "8.0.3",
     "tslint": "5.14.0",
-    "typescript": "3.3.3333"
+    "typescript": "3.3.4000"
   },
   "engines": {
     "node": ">=8.0.0"
