@@ -2,8 +2,7 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "outDir": "lib",
-    "rootDir": "src",
-    "types": ["./src/types/@octokit/plugin-retry", "./src/types/@octokit/plugin-throttling"]
+    "rootDir": "src"
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]

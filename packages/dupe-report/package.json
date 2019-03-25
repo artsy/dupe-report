@@ -22,11 +22,11 @@
   },
   "bugs": "https://github.com/artsy/dupe-report/issues",
   "dependencies": {
-    "axios": "0.18.0",
     "@octokit/plugin-retry": "2.2.0",
     "@octokit/plugin-throttling": "2.4.0",
     "@octokit/rest": "16.20.0",
     "@slack/client": "4.12.0",
+    "axios": "0.18.0",
     "circleci-api": "3.3.2",
     "diff": "4.0.1",
     "dotenv": "7.0.0",
@@ -34,10 +34,11 @@
   },
   "devDependencies": {
     "@artsy/auto-config": "0.1.0",
+    "@types/diff": "4.0.2",
     "@types/dotenv": "6.1.0",
     "@types/lodash.zip": "4.2.6",
     "@types/node": "10.14.3",
-    "@types/diff": "4.0.2",
+    "@types/semver": "^5.5.0",
     "ts-node": "8.0.3",
     "tslint": "5.14.0",
     "typescript": "3.3.4000"
