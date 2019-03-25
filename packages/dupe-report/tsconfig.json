@@ -6,5 +6,5 @@
     "types": ["./src/types/@octokit/plugin-retry", "./src/types/@octokit/plugin-throttling"]
   },
   "include": ["src/**/*"],
-  "exclude": ["../../node_modules/**/*"]
+  "exclude": ["node_modules"]
 }
