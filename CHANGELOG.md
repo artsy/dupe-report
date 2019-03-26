@@ -12,6 +12,31 @@
 - Update dependency @types/node to v10.14.3 [#53](https://github.com/artsy/dupe-report/pull/53) ([@renovate-bot](https://github.com/renovate-bot))
 - Update dependency @types/node to v10.14.2 [#52](https://github.com/artsy/dupe-report/pull/52) ([@renovate-bot](https://github.com/renovate-bot))
 
+#### ⚠️  Pushed to master
+
+- Add npmrc to ignore file [skipci]  ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 2
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
+# v0.32.0 (Tue Mar 26 2019)
+
+#### 🚀  Enhancement
+
+- `dupe-report-plugin`, `dupe-report`
+  - Refactor dupe report into a monorepo [#47](https://github.com/artsy/dupe-report/pull/47) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Update dependency @types/node to v10.14.4 [#55](https://github.com/artsy/dupe-report/pull/55) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency @types/diff to v4.0.2 [#54](https://github.com/artsy/dupe-report/pull/54) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency @types/node to v10.14.3 [#53](https://github.com/artsy/dupe-report/pull/53) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency @types/node to v10.14.2 [#52](https://github.com/artsy/dupe-report/pull/52) ([@renovate-bot](https://github.com/renovate-bot))
+
 #### Authors: 2
 
 - Justin Bennett ([@zephraph](https://github.com/zephraph))
