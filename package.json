@@ -16,7 +16,8 @@
   },
   "scripts": {
     "lint": "lerna run lint",
-    "type-check": "lerna run type-check"
+    "type-check": "lerna run type-check",
+    "now-build": "lerna run now-build"
   },
   "devDependencies": {
     "for-in": "1.0.2",
