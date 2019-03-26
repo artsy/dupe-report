@@ -23,16 +23,12 @@ const changedMessaging = (change: number) => {
   const linesAdded =
     changeAmount === 0
       ? NO_CHANGE_MSG
-      : `Roughly <b>${changeAmount}</b> line${changeAmount === 1 ? "" : "s"} ${
-          added ? "added" : "removed"
-        }. `;
+      : `Roughly <b>${changeAmount}</b> line${changeAmount === 1 ? "" : "s"} ${added ? "added" : "removed"}. `;
 
   const changeTypeText =
     changeAmount === 0
       ? "There is likely no change."
-      : `This is probably a${
-          added ? " <i>regression</i>" : "n <i>improvement</i>"
-        } over master.`;
+      : `This is probably a${added ? " <i>regression</i>" : "n <i>improvement</i>"} over master.`;
 
   return linesAdded + " " + changeTypeText;
 };
@@ -61,12 +57,7 @@ const formatBody = (bodyData: BodyData[]) =>
     )
     .join("\n\n");
 
-export const formatReport = (
-  report: string,
-  diff: string,
-  change: number,
-  assignees: string[]
-) => {
+export const formatReport = (report: string, diff: string, change: number, assignees: string[]) => {
   let [header, bodyWithFooter] = splitAtLine(6, report);
   const [body] = splitAtLine(-6, bodyWithFooter);
 
@@ -79,9 +70,7 @@ export const formatReport = (
     "[An introductory guide](https://github.com/FormidableLabs/inspectpack/#diagnosing-duplicates)\n";
 
   const bodyLines = body.split("\n");
-  const chunks = bodyLines
-    .filter(line => line.match(chunkTitle))
-    .map(chunk => "#" + chunk);
+  const chunks = bodyLines.filter(line => line.match(chunkTitle)).map(chunk => "#" + chunk);
 
   const chunkDependencies = body
     .split(chunkTitle)

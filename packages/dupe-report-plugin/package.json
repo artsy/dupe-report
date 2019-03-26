@@ -1,0 +1,23 @@
+{
+  "name": "@artsy/dupe-report-plugin",
+  "description": "The webpack plugin for dupe-report",
+  "version": "0.31.0",
+  "author": "Justin Bennett <zephraph@gmail.com>",
+  "homepage": "https://github.com/artsy/dupe-report",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "https://github.com/artsy/dupe-report.git",
+  "scripts": {},
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": "https://github.com/artsy/dupe-report/issues",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "inspectpack": "^4.1.2",
+    "make-dir": "^2.1.0",
+    "strip-ansi": "^5.2.0"
+  }
+}

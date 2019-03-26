@@ -3,18 +3,11 @@
     "declaration": true,
     "importHelpers": true,
     "module": "commonjs",
-    "outDir": "lib",
-    "rootDir": "src",
     "strict": true,
     "target": "es2017",
     "composite": true,
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
-    "esModuleInterop": true,
-    "types": [
-      "./src/types/@octokit/plugin-retry",
-      "./src/types/@octokit/plugin-throttling"
-    ]
-  },
-  "include": ["src/**/*"]
+    "esModuleInterop": true
+  }
 }

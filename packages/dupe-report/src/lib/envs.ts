@@ -25,11 +25,7 @@ export const safelyFetchEnvs = (envs: string[]) => {
   });
 
   if (missingEnvs.length > 0) {
-    throw new Error(
-      `Missing required env variable${
-        missingEnvs.length === 1 ? "" : "s"
-      } ${missingEnvs.join(", ")}`
-    );
+    throw new Error(`Missing required env variable${missingEnvs.length === 1 ? "" : "s"} ${missingEnvs.join(", ")}`);
   }
 
   return envs.reduce(

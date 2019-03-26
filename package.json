@@ -3,46 +3,23 @@
   "description": "A tool for reporting on duplicate dependencies in a webpack bundle",
   "version": "0.31.0",
   "author": "Justin Bennett <zephraph@gmail.com>",
-  "files": [
-    "/lib"
+  "private": true,
+  "workspaces": [
+    "packages/*"
   ],
   "homepage": "https://github.com/artsy/dupe-report",
   "license": "MIT",
-  "main": "lib/index.js",
   "repository": "https://github.com/artsy/dupe-report.git",
-  "scripts": {
-    "prepack": "yarn now-build",
-    "now-build": "rm -rf lib && tsc -b",
-    "lint": "tslint -p . -t stylish",
-    "type-check": "tsc --pretty --noEmit"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
   "bugs": "https://github.com/artsy/dupe-report/issues",
-  "dependencies": {
-    "axios": "0.18.0",
-    "@octokit/plugin-retry": "2.2.0",
-    "@octokit/plugin-throttling": "2.4.0",
-    "@octokit/rest": "16.20.0",
-    "@slack/client": "4.12.0",
-    "circleci-api": "3.3.2",
-    "diff": "4.0.1",
-    "dotenv": "7.0.0",
-    "lodash.zip": "4.2.0"
-  },
-  "devDependencies": {
-    "@artsy/auto-config": "0.1.0",
-    "@types/dotenv": "6.1.0",
-    "@types/lodash.zip": "4.2.6",
-    "@types/node": "10.14.4",
-    "@types/diff": "4.0.2",
-    "ts-node": "8.0.3",
-    "tslint": "5.14.0",
-    "typescript": "3.3.4000"
-  },
   "engines": {
     "node": ">=8.0.0"
   },
-  "types": "lib/index.d.ts"
+  "scripts": {
+    "lint": "lerna run lint",
+    "type-check": "lerna run type-check"
+  },
+  "devDependencies": {
+    "for-in": "^1.0.2",
+    "lerna": "^3.13.1"
+  }
 }
