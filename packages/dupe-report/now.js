@@ -9,18 +9,19 @@ const { parse } = require("url");
 
 module.exports = (req, res) => {
   const { query } = parse(req.url, true);
-  const { owner = "artsy", repo = "force", buildNum, dryRun = false } = query;
+  const { owner, repo, buildNum, dryRun = false } = query;
+
+  if (!owner || !repo || !buildNum) {
+    res.writeHead(400);
+    res.end("Invalid params");
+  }
 
   let parsedOwner = String(owner);
   let parsedRepo = String(repo);
   let parsedDryRun = Boolean(dryRun);
   let parsedBuildNum = parseInt(buildNum);
 
-  if (
-    parsedBuildNum < 0 ||
-    parsedBuildNum === NaN ||
-    parsedBuildNum === Infinity
-  ) {
+  if (parsedBuildNum < 0 || parsedBuildNum === NaN || parsedBuildNum === Infinity) {
     return res.end("buildNum invalid");
   }
 
