@@ -16,9 +16,11 @@
   },
   "scripts": {
     "lint": "lerna run lint",
-    "type-check": "lerna run type-check"
+    "type-check": "lerna run type-check",
+    "now-build": "lerna run now-build"
   },
   "devDependencies": {
+    "@types/semver": "^5.5.0",
     "for-in": "1.0.2",
     "lerna": "3.13.1"
   }

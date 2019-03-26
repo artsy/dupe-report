@@ -7,3 +7,4 @@ node_modules
 .env
 test.txt
 .npmrc
+packages/dupe-report/lib
