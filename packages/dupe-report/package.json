@@ -12,6 +12,7 @@
   "repository": "https://github.com/artsy/dupe-report.git",
   "scripts": {
     "deploy": "now --target production",
+    "dev": "now --target staging",
     "prepack": "yarn now-build",
     "now-build": "rm -rf lib && tsc -b",
     "lint": "tslint -p . -t stylish",
