@@ -1,3 +1,20 @@
+# v0.34.1 (Tue Mar 26 2019)
+
+#### 🏠  Internal
+
+- Pin dependency @types/semver to 5.5.0 [#59](https://github.com/artsy/dupe-report/pull/59) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### ⚠️  Pushed to master
+
+- Update alias  ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 2
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+- [@zephraph](https://github.com/zephraph)
+
+---
+
 # v0.32.0 (Tue Mar 26 2019)
 
 #### 🚀  Enhancement
