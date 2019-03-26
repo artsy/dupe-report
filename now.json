@@ -1,7 +1,7 @@
 {
   "version": 2,
   "builds": [{ "src": "packages/dupe-report/now.js", "use": "@now/node" }],
-  "alias": "dupe-report.artsy.now.sh",
+  "alias": "artsy-dupe-report.now.sh",
   "public": false,
   "env": {
     "GH_TOKEN": "@gh-token",
