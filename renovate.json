@@ -10,7 +10,7 @@
   "packageRules": [
     {
       "depTypeList": ["dependencies"],
-      "labels": ["Version: Minor"]
+      "labels": ["Version: Minor", "Skip Release"]
     },
     {
       "depTypeList": ["devDependencies"],
