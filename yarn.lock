@@ -704,10 +704,10 @@
     once "^1.4.0"
     universal-user-agent "^2.0.1"
 
-"@octokit/rest@16.23.5":
-  version "16.23.5"
-  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.23.5.tgz#835de07e68646f66abb18d13886803571afe5fbe"
-  integrity sha512-7RcYNXeBvmKdbXdaRGCDzaq8snEaZrD7X+jUFT6ZjEMNgaSYrkl7pB+ICh+dnTpubAeFPpxeKR+82msCbgxqew==
+"@octokit/rest@16.24.0":
+  version "16.24.0"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.24.0.tgz#ac6e6a2258ed27e6978d6677c2a104c1b2c7449a"
+  integrity sha512-BesjqU1wWLrP5g4vu0GRJpPxlXM+ISNsXexLGIAANxxPkiWcUy0raPwyUMtt5/8WScJ7sbct7MqmL0adMO3ZNw==
   dependencies:
     "@octokit/request" "3.0.0"
     atob-lite "^2.0.0"
