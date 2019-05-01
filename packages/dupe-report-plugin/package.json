@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "inspectpack": "4.2.1",
-    "make-dir": "2.1.0",
+    "make-dir": "3.0.0",
     "strip-ansi": "5.2.0"
   }
 }
