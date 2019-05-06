@@ -34,7 +34,7 @@
     "lodash.zip": "4.2.0"
   },
   "devDependencies": {
-    "@artsy/auto-config": "0.1.2",
+    "@artsy/auto-config": "1.0.0",
     "@types/diff": "4.0.2",
     "@types/dotenv": "6.1.1",
     "@types/lodash.zip": "4.2.6",
