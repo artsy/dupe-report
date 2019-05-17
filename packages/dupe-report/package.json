@@ -24,7 +24,7 @@
   "bugs": "https://github.com/artsy/dupe-report/issues",
   "dependencies": {
     "@octokit/plugin-retry": "2.2.0",
-    "@octokit/plugin-throttling": "2.5.0",
+    "@octokit/plugin-throttling": "2.6.0",
     "@octokit/rest": "16.25.6",
     "@slack/client": "4.12.0",
     "axios": "0.18.0",
