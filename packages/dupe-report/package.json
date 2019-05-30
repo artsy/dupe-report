@@ -40,7 +40,7 @@
     "@types/lodash.zip": "4.2.6",
     "@types/node": "10.14.8",
     "ts-node": "8.2.0",
-    "tslint": "5.16.0",
+    "tslint": "5.17.0",
     "typescript": "3.5.1"
   },
   "engines": {
