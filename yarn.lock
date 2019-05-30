@@ -1123,7 +1123,7 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==
 
-axios@0.19.0:
+axios@0.19.0, axios@^0.19.0:
   version "0.19.0"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.0.tgz#8e09bff3d9122e133f7b8101c8fbdd00ed3d2ab8"
   integrity sha512-1uvKqKQta3KBxIz14F2v06AEHZ/dIoeKfbTRkK1E5oqjDnuEerLmYTgJB5AiQZHJcljpg1TuRzdjDR06qNk0DQ==
@@ -1353,12 +1353,12 @@ ci-info@^1.5.0:
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-1.6.0.tgz#2ca20dbb9ceb32d4524a683303313f0304b1e497"
   integrity sha512-vsGdkwSCDpWmP80ncATX7iea5DWQemg1UgCW5J8tqjU3lYw4FBYuj89J0CTVomA7BEfvSZd84GmHko+MxFQU2A==
 
-circleci-api@3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/circleci-api/-/circleci-api-3.3.2.tgz#c5122015bfd3c70f71af60fe9fd29c0a00de4460"
-  integrity sha512-pYt/qN5/YMpXGwPofczpfWF1iUgMKOEB9LXbC/Pw/Lla10w3TYp0lR5ZBGkCb3u6L3ZoVK4XT4+zQkrRjadRgA==
+circleci-api@3.3.4:
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/circleci-api/-/circleci-api-3.3.4.tgz#f6d74a7b01c7495af66a23da5f887f82d6dea969"
+  integrity sha512-Q6Cc3DmPl/I9AxDK+jx8O3kFn8TsQEi8rQBqcG21fQTLI8+3abwHYfGb48eU7Sw70lzADJjrDy+sr9zYDYz3Ng==
   dependencies:
-    axios "^0.18.0"
+    axios "^0.19.0"
 
 class-utils@^0.3.5:
   version "0.3.6"
