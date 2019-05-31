@@ -28,7 +28,7 @@
     "@octokit/rest": "16.27.3",
     "@slack/client": "4.12.0",
     "axios": "0.19.0",
-    "circleci-api": "3.3.2",
+    "circleci-api": "3.3.4",
     "diff": "4.0.1",
     "dotenv": "8.0.0",
     "lodash.zip": "4.2.0"
