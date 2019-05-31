@@ -1,23 +1,10 @@
 // Module
 import axios from "axios";
-import {
-  Artifact,
-  BuildSummary,
-  CircleCI,
-  CircleCIOptions,
-  GitType,
-  BuildWithSteps
-} from "circleci-api";
+import { Artifact, CircleCI, CircleCIOptions, GitType, BuildWithSteps } from "circleci-api";
 
 import { safelyFetchEnvs } from "../lib/envs";
 
 const { CIRCLE_TOKEN } = safelyFetchEnvs(["CIRCLE_TOKEN"]);
-
-interface BuildSummaryExtended extends BuildSummary {
-  workflows?: {
-    job_name: string;
-  };
-}
 
 interface PullRequest {
   head_sha: string;
@@ -67,11 +54,7 @@ export class Circle {
     try {
       build = (await this.api.build(buildNum)) as BuildWithStepsExtended;
     } catch (error) {
-      console.error(
-        `Failed to get circle build details for job #${buildNum} of ${
-          this.owner
-        }/${this.repo}`
-      );
+      console.error(`Failed to get circle build details for job #${buildNum} of ${this.owner}/${this.repo}`);
       throw error;
     }
 
@@ -119,10 +102,7 @@ export class Circle {
         latestBuild = (await this.api.buildsFor(branchName, {
           filter: "successful",
           limit: 10
-        })).filter(
-          (build: BuildSummaryExtended) =>
-            build.workflows && build.workflows.job_name === jobName
-        )[0];
+        })).filter(build => build.workflows && build.workflows.some(workflow => workflow.job_name === jobName))[0];
       } catch (error) {
         console.error(`Failed to find latest master ${jobName} job`);
         throw error;
@@ -142,9 +122,7 @@ export class Circle {
     } catch (error) {
       const branchText = buildNum ? "" : `latest ${branchName} `;
       const buildText = buildNum ? `#${buildNum} ` : "";
-      console.error(
-        `Found ${branchText}job ${buildText}but failed to fetch artifact`
-      );
+      console.error(`Found ${branchText}job ${buildText}but failed to fetch artifact`);
       throw error;
     }
 
