@@ -30,7 +30,7 @@
     "axios": "0.19.0",
     "circleci-api": "3.3.4",
     "diff": "4.0.1",
-    "dotenv": "8.0.0",
+    "dotenv": "8.1.0",
     "lodash.zip": "4.2.0"
   },
   "devDependencies": {
