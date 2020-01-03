@@ -16,7 +16,7 @@
     "node": ">=8.0.0"
   },
   "dependencies": {
-    "inspectpack": "4.2.2",
+    "inspectpack": "4.3.0",
     "make-dir": "3.0.0",
     "strip-ansi": "5.2.0"
   }
