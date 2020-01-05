@@ -1,3 +1,299 @@
+# v0.35.0 (Sun Jan 05 2020)
+
+#### 🚀  Enhancement
+
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.27.3 [#119](https://github.com/artsy/dupe-report/pull/119) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report-plugin`
+  - Update dependency inspectpack to v4.3.0 [#216](https://github.com/artsy/dupe-report/pull/216) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/plugin-throttling to v2.7.1 [#208](https://github.com/artsy/dupe-report/pull/208) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.35.2 [#205](https://github.com/artsy/dupe-report/pull/205) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.35.0 [#193](https://github.com/artsy/dupe-report/pull/193) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.34.1 [#185](https://github.com/artsy/dupe-report/pull/185) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.34.0 [#182](https://github.com/artsy/dupe-report/pull/182) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency dotenv to v8.2.0 [#179](https://github.com/artsy/dupe-report/pull/179) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.33.1 [#175](https://github.com/artsy/dupe-report/pull/175) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.33.0 [#171](https://github.com/artsy/dupe-report/pull/171) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.32.0 [#169](https://github.com/artsy/dupe-report/pull/169) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/plugin-throttling to v2.7.0 [#168](https://github.com/artsy/dupe-report/pull/168) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.31.0 [#167](https://github.com/artsy/dupe-report/pull/167) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.30.2 [#166](https://github.com/artsy/dupe-report/pull/166) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.30.1 [#163](https://github.com/artsy/dupe-report/pull/163) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.30.0 [#162](https://github.com/artsy/dupe-report/pull/162) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.29.0 [#161](https://github.com/artsy/dupe-report/pull/161) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.28.9 [#155](https://github.com/artsy/dupe-report/pull/155) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.28.8 [#154](https://github.com/artsy/dupe-report/pull/154) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency dotenv to v8.1.0 [#149](https://github.com/artsy/dupe-report/pull/149) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report-plugin`
+  - Update dependency inspectpack to v4.2.2 [#145](https://github.com/artsy/dupe-report/pull/145) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.28.7 [#144](https://github.com/artsy/dupe-report/pull/144) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.28.6 [#141](https://github.com/artsy/dupe-report/pull/141) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.28.5 [#137](https://github.com/artsy/dupe-report/pull/137) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.28.4 [#134](https://github.com/artsy/dupe-report/pull/134) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.28.3 [#132](https://github.com/artsy/dupe-report/pull/132) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.28.2 [#127](https://github.com/artsy/dupe-report/pull/127) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.28.1 [#123](https://github.com/artsy/dupe-report/pull/123) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.28.0 [#120](https://github.com/artsy/dupe-report/pull/120) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency circleci-api to v3.3.4 [#115](https://github.com/artsy/dupe-report/pull/115) ([@renovate-bot](https://github.com/renovate-bot) [@zephraph](https://github.com/zephraph))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.36.0 [#211](https://github.com/artsy/dupe-report/pull/211) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency axios to v0.19.0 [#116](https://github.com/artsy/dupe-report/pull/116) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.27.1 [#114](https://github.com/artsy/dupe-report/pull/114) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.27.0 [#110](https://github.com/artsy/dupe-report/pull/110) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.26.0 [#109](https://github.com/artsy/dupe-report/pull/109) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/plugin-throttling to v2.6.0 [#107](https://github.com/artsy/dupe-report/pull/107) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.25.6 [#106](https://github.com/artsy/dupe-report/pull/106) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.25.5 [#104](https://github.com/artsy/dupe-report/pull/104) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.25.4 [#102](https://github.com/artsy/dupe-report/pull/102) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/plugin-throttling to v2.5.0 [#101](https://github.com/artsy/dupe-report/pull/101) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.25.3 [#100](https://github.com/artsy/dupe-report/pull/100) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.25.2 [#97](https://github.com/artsy/dupe-report/pull/97) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency dotenv to v8 [#96](https://github.com/artsy/dupe-report/pull/96) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report-plugin`
+  - Update dependency make-dir to v3 [#70](https://github.com/artsy/dupe-report/pull/70) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.25.1 [#95](https://github.com/artsy/dupe-report/pull/95) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.25.0 [#90](https://github.com/artsy/dupe-report/pull/90) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.24.3 [#88](https://github.com/artsy/dupe-report/pull/88) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.24.2 [#86](https://github.com/artsy/dupe-report/pull/86) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.24.1 [#83](https://github.com/artsy/dupe-report/pull/83) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.24.0 [#82](https://github.com/artsy/dupe-report/pull/82) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.23.5 [#80](https://github.com/artsy/dupe-report/pull/80) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.23.3 [#79](https://github.com/artsy/dupe-report/pull/79) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.23.2 [#76](https://github.com/artsy/dupe-report/pull/76) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.23.1 [#75](https://github.com/artsy/dupe-report/pull/75) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.23.0 [#74](https://github.com/artsy/dupe-report/pull/74) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.22.0 [#69](https://github.com/artsy/dupe-report/pull/69) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.21.1 [#66](https://github.com/artsy/dupe-report/pull/66) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report-plugin`
+  - Update dependency inspectpack to v4.2.1 [#64](https://github.com/artsy/dupe-report/pull/64) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @octokit/rest to v16.21.0 [#63](https://github.com/artsy/dupe-report/pull/63) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report-plugin`
+  - Update dependency inspectpack to v4.2.0 [#60](https://github.com/artsy/dupe-report/pull/60) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### 🐛  Bug Fix
+
+- Update yarn orb to v2 [#219](https://github.com/artsy/dupe-report/pull/219) ([@renovate-bot](https://github.com/renovate-bot))
+- Use default artsy renovate config [#218](https://github.com/artsy/dupe-report/pull/218) ([@zephraph](https://github.com/zephraph))
+- `@artsy/dupe-report`
+  - Bail earlier when params are missing, remove defaults [#62](https://github.com/artsy/dupe-report/pull/62) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Update dependency lerna to v3.20.2 [#215](https://github.com/artsy/dupe-report/pull/215) ([@renovate-bot](https://github.com/renovate-bot))
+- Don't release on dependency updates [#61](https://github.com/artsy/dupe-report/pull/61) ([@zephraph](https://github.com/zephraph))
+- Update dependency lerna to v3.20.0 [#213](https://github.com/artsy/dupe-report/pull/213) ([@renovate-bot](https://github.com/renovate-bot))
+- Remove explicit dependency on semver [#73](https://github.com/artsy/dupe-report/pull/73) ([@zephraph](https://github.com/zephraph))
+- Update dependency lerna to v3.13.2 [#78](https://github.com/artsy/dupe-report/pull/78) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.13.3 [#87](https://github.com/artsy/dupe-report/pull/87) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.13.4 [#93](https://github.com/artsy/dupe-report/pull/93) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.14.0 [#103](https://github.com/artsy/dupe-report/pull/103) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.14.1 [#105](https://github.com/artsy/dupe-report/pull/105) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.14.2 [#121](https://github.com/artsy/dupe-report/pull/121) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.15.0 [#122](https://github.com/artsy/dupe-report/pull/122) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.16.0 [#138](https://github.com/artsy/dupe-report/pull/138) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.16.1 [#139](https://github.com/artsy/dupe-report/pull/139) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.16.2 [#140](https://github.com/artsy/dupe-report/pull/140) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.16.3 [#142](https://github.com/artsy/dupe-report/pull/142) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.19.0 [#197](https://github.com/artsy/dupe-report/pull/197) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.18.5 [#196](https://github.com/artsy/dupe-report/pull/196) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.16.4 [#143](https://github.com/artsy/dupe-report/pull/143) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.20.1 [#214](https://github.com/artsy/dupe-report/pull/214) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.16.5 [#170](https://github.com/artsy/dupe-report/pull/170) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.18.4 [#190](https://github.com/artsy/dupe-report/pull/190) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.17.0 [#174](https://github.com/artsy/dupe-report/pull/174) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.18.0 [#176](https://github.com/artsy/dupe-report/pull/176) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.18.1 [#177](https://github.com/artsy/dupe-report/pull/177) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.18.2 [#180](https://github.com/artsy/dupe-report/pull/180) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency lerna to v3.18.3 [#181](https://github.com/artsy/dupe-report/pull/181) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency tslint to v5.18.0 [#128](https://github.com/artsy/dupe-report/pull/128) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.17.0 [#183](https://github.com/artsy/dupe-report/pull/183) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.14.22 [#178](https://github.com/artsy/dupe-report/pull/178) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.17.3 [#186](https://github.com/artsy/dupe-report/pull/186) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency typescript to v3.7.2 [#187](https://github.com/artsy/dupe-report/pull/187) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.17.4 [#189](https://github.com/artsy/dupe-report/pull/189) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency typescript to v3.6.4 [#173](https://github.com/artsy/dupe-report/pull/173) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.14.21 [#172](https://github.com/artsy/dupe-report/pull/172) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.17.5 [#191](https://github.com/artsy/dupe-report/pull/191) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.14.20 [#165](https://github.com/artsy/dupe-report/pull/165) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.14.19 [#164](https://github.com/artsy/dupe-report/pull/164) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency ts-node to v8.4.1 [#160](https://github.com/artsy/dupe-report/pull/160) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency ts-node to v8.4.0 [#159](https://github.com/artsy/dupe-report/pull/159) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.14.18 [#158](https://github.com/artsy/dupe-report/pull/158) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency typescript to v3.6.3 [#157](https://github.com/artsy/dupe-report/pull/157) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency tslint to v5.20.0 [#156](https://github.com/artsy/dupe-report/pull/156) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.14.17 [#153](https://github.com/artsy/dupe-report/pull/153) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency typescript to v3.6.2 [#152](https://github.com/artsy/dupe-report/pull/152) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency tslint to v5.19.0 [#151](https://github.com/artsy/dupe-report/pull/151) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency ts-node to v8.5.0 [#194](https://github.com/artsy/dupe-report/pull/194) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.14.15 [#148](https://github.com/artsy/dupe-report/pull/148) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @artsy/auto-config to v1.0.1 [#147](https://github.com/artsy/dupe-report/pull/147) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.14.14 [#146](https://github.com/artsy/dupe-report/pull/146) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency ts-node to v8.5.2 [#195](https://github.com/artsy/dupe-report/pull/195) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.17.6 [#198](https://github.com/artsy/dupe-report/pull/198) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency ts-node to v8.5.3 [#199](https://github.com/artsy/dupe-report/pull/199) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency ts-node to v8.5.4 [#200](https://github.com/artsy/dupe-report/pull/200) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency typescript to v3.7.3 [#201](https://github.com/artsy/dupe-report/pull/201) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.14.13 [#136](https://github.com/artsy/dupe-report/pull/136) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency typescript to v3.5.3 [#131](https://github.com/artsy/dupe-report/pull/131) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.14.12 [#130](https://github.com/artsy/dupe-report/pull/130) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.14.10 [#129](https://github.com/artsy/dupe-report/pull/129) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.17.2 [#184](https://github.com/artsy/dupe-report/pull/184) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency ts-node to v8.3.0 [#126](https://github.com/artsy/dupe-report/pull/126) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency typescript to v3.5.2 [#125](https://github.com/artsy/dupe-report/pull/125) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.14.9 [#124](https://github.com/artsy/dupe-report/pull/124) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.17.7 [#202](https://github.com/artsy/dupe-report/pull/202) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.17.8 [#203](https://github.com/artsy/dupe-report/pull/203) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency tslint to v5.17.0 [#118](https://github.com/artsy/dupe-report/pull/118) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.14.8 [#117](https://github.com/artsy/dupe-report/pull/117) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency typescript to v3.5.1 [#113](https://github.com/artsy/dupe-report/pull/113) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency ts-node to v8.2.0 [#112](https://github.com/artsy/dupe-report/pull/112) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency ts-node to v8.1.1 [#111](https://github.com/artsy/dupe-report/pull/111) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.14.7 [#108](https://github.com/artsy/dupe-report/pull/108) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.17.9 [#204](https://github.com/artsy/dupe-report/pull/204) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.17.10 [#206](https://github.com/artsy/dupe-report/pull/206) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @artsy/auto-config to v1 [#99](https://github.com/artsy/dupe-report/pull/99) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @artsy/auto-config to v0.1.2 [#98](https://github.com/artsy/dupe-report/pull/98) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.14.6 [#94](https://github.com/artsy/dupe-report/pull/94) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.17.11 [#207](https://github.com/artsy/dupe-report/pull/207) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency typescript to v3.4.5 [#92](https://github.com/artsy/dupe-report/pull/92) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.14.5 [#91](https://github.com/artsy/dupe-report/pull/91) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency typescript to v3.4.4 [#89](https://github.com/artsy/dupe-report/pull/89) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency typescript to v3.7.4 [#209](https://github.com/artsy/dupe-report/pull/209) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency tslint to v5.16.0 [#85](https://github.com/artsy/dupe-report/pull/85) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency ts-node to v8.1.0 [#84](https://github.com/artsy/dupe-report/pull/84) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency typescript to v3.4.3 [#81](https://github.com/artsy/dupe-report/pull/81) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.17.12 [#210](https://github.com/artsy/dupe-report/pull/210) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency typescript to v3.4.2 [#77](https://github.com/artsy/dupe-report/pull/77) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.17.13 [#212](https://github.com/artsy/dupe-report/pull/212) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency tslint to v5.15.0 [#72](https://github.com/artsy/dupe-report/pull/72) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/dotenv to v6.1.1 [#68](https://github.com/artsy/dupe-report/pull/68) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency typescript to v3.4.1 [#67](https://github.com/artsy/dupe-report/pull/67) ([@renovate-bot](https://github.com/renovate-bot))
+- `@artsy/dupe-report`
+  - Update dependency @types/node to v10.14.16 [#150](https://github.com/artsy/dupe-report/pull/150) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 2
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+
+---
+
 # v0.34.1 (Tue Mar 26 2019)
 
 #### 🏠  Internal
