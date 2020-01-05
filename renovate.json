@@ -1,20 +1,4 @@
 {
-  "extends": ["config:js-app"],
-  "automerge": true,
-  "major": {
-    "automerge": false
-  },
-  "assignees": ["zephraph"],
-  "prHourlyLimit": 0,
-  "prConcurrentLimit": 0,
-  "packageRules": [
-    {
-      "depTypeList": ["dependencies"],
-      "labels": ["Version: Minor", "Skip Release"]
-    },
-    {
-      "depTypeList": ["devDependencies"],
-      "labels": ["Version: Trivial"]
-    }
-  ]
+  "extends": ["@artsy:app"],
+  "assignees": ["zephraph"]
 }
