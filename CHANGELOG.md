@@ -1,3 +1,16 @@
+# v0.35.1 (Sun Jan 05 2020)
+
+#### 🐛  Bug Fix
+
+- `@artsy/dupe-report`
+  - Collapse existing duplicates to shorten message [#217](https://github.com/artsy/dupe-report/pull/217) ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 1
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+
+---
+
 # v0.35.0 (Sun Jan 05 2020)
 
 #### 🚀  Enhancement
