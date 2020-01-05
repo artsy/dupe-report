@@ -1,7 +1,7 @@
 {
   "name": "@artsy/dupe-report-plugin",
   "description": "The webpack plugin for dupe-report",
-  "version": "0.35.0",
+  "version": "0.35.1",
   "author": "Justin Bennett <zephraph@gmail.com>",
   "homepage": "https://github.com/artsy/dupe-report",
   "license": "MIT",
