@@ -20,6 +20,7 @@
     "now-build": "lerna run now-build"
   },
   "devDependencies": {
+    "@artsy/auto-config": "^1.0.2",
     "for-in": "1.0.2",
     "lerna": "3.20.2"
   }
