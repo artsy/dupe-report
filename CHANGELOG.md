@@ -1,3 +1,22 @@
+# v0.35.3 (Tue Feb 18 2020)
+
+#### 🐛  Bug Fix
+
+- Pin dep @artsy/auto-config from ^1.0.2 to 1.0.2 [#224](https://github.com/artsy/dupe-report/pull/224) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### 🏠  Internal
+
+- `@artsy/dupe-report`
+  - Update yarn orb to v3 [#223](https://github.com/artsy/dupe-report/pull/223) ([@renovate-bot](https://github.com/renovate-bot) [@zephraph](https://github.com/zephraph) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.35.2 (Thu Jan 16 2020)
 
 
