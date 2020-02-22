@@ -16,7 +16,7 @@
     "prepack": "yarn now-build",
     "now-build": "rm -rf lib && tsc -b",
     "lint": "tslint -p . -t stylish",
-    "type-check": "tsc --pretty --noEmit"
+    "type-check": "tsc --pretty"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

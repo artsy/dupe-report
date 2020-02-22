@@ -8,3 +8,4 @@ node_modules
 test.txt
 .npmrc
 packages/dupe-report/lib
+tsconfig.tsbuildinfo
