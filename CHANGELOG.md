@@ -1,3 +1,22 @@
+# v0.35.4 (Sat Feb 29 2020)
+
+#### 🐛  Bug Fix
+
+- Update yarn orb to v4.0.1 [#227](https://github.com/artsy/dupe-report/pull/227) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update yarn orb to v4.0.2 [#228](https://github.com/artsy/dupe-report/pull/228) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### 🏠  Internal
+
+- Update yarn orb to v4 [#225](https://github.com/artsy/dupe-report/pull/225) ([@renovate-bot](https://github.com/renovate-bot) [@zephraph](https://github.com/zephraph) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.35.3 (Tue Feb 18 2020)
 
 #### 🐛  Bug Fix
