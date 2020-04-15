@@ -1,3 +1,21 @@
+# v0.35.7 (Wed Apr 15 2020)
+
+#### 🐛  Bug Fix
+
+- Update auto orb from 1.1.0 to v1.2.0 [#232](https://github.com/artsy/dupe-report/pull/232) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### 🏠  Internal
+
+- `@artsy/dupe-report`
+  - Remove slack notifications from dupe report [#231](https://github.com/artsy/dupe-report/pull/231) ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 2
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.35.6 (Thu Mar 05 2020)
 
 #### 🐛  Bug Fix
