@@ -1,3 +1,20 @@
+# v0.35.8 (Tue May 12 2020)
+
+#### 🐛  Bug Fix
+
+- Update auto orb from 1.2.1 to v1.3.2 [#235](https://github.com/artsy/dupe-report/pull/235) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### 🏠  Internal
+
+- Update auto orb from 1.2.0 to v1.2.1 [#233](https://github.com/artsy/dupe-report/pull/233) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.35.7 (Wed Apr 15 2020)
 
 #### 🐛  Bug Fix
