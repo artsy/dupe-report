@@ -1,3 +1,21 @@
+# v0.36.1 (Fri Sep 18 2020)
+
+#### 🐛  Bug Fix
+
+- Update dep typescript from 4.0.2 to v4.0.3 [#245](https://github.com/artsy/dupe-report/pull/245) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dep typescript from 3.9.7 to v4 ([@renovate-bot](https://github.com/renovate-bot))
+
+#### 🏠  Internal
+
+- Update dep typescript from 3.9.7 to v4 [#242](https://github.com/artsy/dupe-report/pull/242) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.36.0 (Tue Aug 04 2020)
 
 #### 🚀  Enhancement
