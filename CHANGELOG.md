@@ -1,3 +1,16 @@
+# v0.37.0 (Tue Oct 27 2020)
+
+#### 🚀  Enhancement
+
+- `@artsy/dupe-report`
+  - Update dep typescript from 4.0.3 to v4.0.5 [#246](https://github.com/artsy/dupe-report/pull/246) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 1
+
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.36.1 (Fri Sep 18 2020)
 
 #### 🐛  Bug Fix
